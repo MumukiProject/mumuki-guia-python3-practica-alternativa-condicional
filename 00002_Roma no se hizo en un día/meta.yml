@@ -1,0 +1,39 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Para resolverla es necesario usar `if`
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Para resolverla es necesario usar `else` y/o `elif`
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`a_romanos` debe tomar dos parámetros"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Para resolverla conviene utilizar `str.startswith`
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El parámetro de `a_romanos` debe ser de tipo string
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El parámetro de `a_romanos` debe ser de tipo entero
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`a_romanos` debe retornar un string"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`a_romanos` debe retornar un entero"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Para resolverla conviene utilizar el operador de comparación `==`
+  checked: true
+name: Roma no se hizo en un día
