@@ -1,1 +1,3 @@
-Algunas de las siguientes expresiones generan errores. Seleccioná todas las opciones correctas: 
+Algunas de las siguientes expresiones generan errores. :scream:
+
+> Seleccioná todas las opciones correctas: 
