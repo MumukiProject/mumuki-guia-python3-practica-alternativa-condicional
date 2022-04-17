@@ -36,4 +36,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Para resolverla conviene utilizar el operador de comparación `==`
   checked: true
-name: Roma no se hizo en un día
+name: Todos los códigos conducen a Roma
