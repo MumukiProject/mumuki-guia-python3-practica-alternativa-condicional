@@ -1,0 +1,27 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La función no presenta errores
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El nombre de la función `HORARIO_ATENCION` debería escribirse en minúsculas
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Al cargar la función, ésta generará un `SyntaxError`
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Al cargar la función, ésta generará un `IndentationError`
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Al cargar la función, ésta generará un `NameError`
+  checked: false
+name: New exercise
