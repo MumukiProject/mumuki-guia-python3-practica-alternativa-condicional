@@ -34,7 +34,7 @@ choices:
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`horario_atencion` es una función que dice en qué días se puede encontrar
-    abierto al comercio en un horario dado."
+    abierto al comercio en un horario dado"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: '`horarioatencion("martes")` genera un `NameError`'
