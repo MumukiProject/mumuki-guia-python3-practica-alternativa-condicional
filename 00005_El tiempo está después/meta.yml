@@ -39,4 +39,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: '`horarioatencion("martes")` genera un `NameError`'
   checked: true
-name: La hora
+name: El tiempo está después
