@@ -1,0 +1,1 @@
+Este cuestionario está enfocado en los contenidos de la lección 3 del capítulo 2 de Mumuki. Tomate tu tiempo para leer las preguntas y responder. Es una evaluación que te servirá para saber qué contenidos debés repasar de cara al parcial, por lo que es una evaluación individual.
