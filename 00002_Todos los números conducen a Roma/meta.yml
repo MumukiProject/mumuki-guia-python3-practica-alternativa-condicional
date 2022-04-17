@@ -36,4 +36,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Para resolverla conviene utilizar el operador de comparación `==`
   checked: true
-name: Todos los códigos conducen a Roma
+name: Todos los números conducen a Roma
