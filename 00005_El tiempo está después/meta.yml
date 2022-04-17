@@ -19,10 +19,10 @@ choices:
   value: '`horario_atencion("Saturno")` genera un `TypeError`'
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '`horario_atencion("Sábado")` devuelve "Abre de 8 a 13 hs"'
+  value: '`horario_atencion("Sábado")` devuelve `"Abre de 8 a 13 hs"`'
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '`horario_atencion("domingo")` devuelve "Abre de 8 a 13 hs"'
+  value: '`horario_atencion("domingo")` devuelve `"Abre de 8 a 13 hs"`'
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`horario_atencion` es una función que devuelve si el comercio está abierto
