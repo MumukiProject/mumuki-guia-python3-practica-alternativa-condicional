@@ -10,4 +10,4 @@ def HORARIO_ATENCION(dia):
   return "Abre de 8 a 18 hs"
 ```
 
-Teniendo esto en cuenta, seleccioná todas las opciones correctas: 
+> Teniendo esto en cuenta, seleccioná todas las opciones correctas: 
