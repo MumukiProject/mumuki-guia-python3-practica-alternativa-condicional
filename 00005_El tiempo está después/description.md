@@ -1,4 +1,4 @@
-:timer: El equipo modificó el código del ejercicio anterior y ahora se ve así: 
+:timer: Después de algunas observaciones, el equipo modificó el código del ejercicio anterior y ahora se ve así: 
 
 ```python
 def horario_atencion(dia):
