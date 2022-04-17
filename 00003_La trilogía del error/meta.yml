@@ -1,0 +1,36 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La expresión `4 / 0` genera un `SyntaxError`
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La expresión `4 / 0` genera un `ZeroDivisionError`
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La expresión `"Temporada " + 4` vale "Temporada4"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La expresión `"Temporada " + 4` genera un `TypeError`
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La expresión `4 == "4"` genera un `TypeError`
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La expresión `4 == "4"` genera un `SyntaxError`
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La expresión `4 == "4"` vale `False`
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La expresión `4 == "4"` vale `True`
+  checked: false
+name: La trilogía del error
