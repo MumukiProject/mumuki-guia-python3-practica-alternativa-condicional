@@ -26,7 +26,7 @@ choices:
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: El parámetro de `a_romanos` debe ser de tipo entero
-  checked: false
+  checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`a_romanos` debe retornar un string"
   checked: true
