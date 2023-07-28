@@ -8,32 +8,24 @@ extra_visible: false
 language: text
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Para resolverla es necesario usar `if`
+- value: Para resolverla es necesario usar `if`
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Para resolverla es necesario usar `else` y/o `elif`
+- value: Para resolverla es necesario usar `else` y/o `elif`
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`a_romanos` debe tomar dos parámetros"
+- value: "`a_romanos` debe tomar dos parámetros"
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Para resolverla conviene utilizar `str.startswith`
+- value: Para resolverla conviene utilizar `str.startswith`
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: El parámetro de `a_romanos` debe ser de tipo string
+- value: El parámetro de `a_romanos` debe ser de tipo string
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: El parámetro de `a_romanos` debe ser de tipo entero
+- value: El parámetro de `a_romanos` debe ser de tipo entero
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`a_romanos` debe retornar un string"
+- value: "`a_romanos` debe retornar un string"
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`a_romanos` debe retornar un entero"
+- value: "`a_romanos` debe retornar un entero"
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Para resolverla conviene utilizar el operador de comparación `==`
+- value: Para resolverla conviene utilizar el operador de comparación `==`
   checked: true
 name: Todos los números conducen a Roma

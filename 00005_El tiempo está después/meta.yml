@@ -8,35 +8,27 @@ extra_visible: false
 language: text
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '`horario_atencion(100)` devuelve `"Abre de 8 a 18 hs"`'
+- value: '`horario_atencion(100)` devuelve `"Abre de 8 a 18 hs"`'
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`horario_atencion(100)` genera un `TypeError`"
+- value: "`horario_atencion(100)` genera un `TypeError`"
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '`horario_atencion("Saturno")` genera un `TypeError`'
+- value: '`horario_atencion("Saturno")` genera un `TypeError`'
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '`horario_atencion("Sábado")` devuelve `"Abre de 8 a 13 hs"`'
+- value: '`horario_atencion("Sábado")` devuelve `"Abre de 8 a 13 hs"`'
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '`horario_atencion("domingo")` devuelve `"Abre de 8 a 13 hs"`'
+- value: '`horario_atencion("domingo")` devuelve `"Abre de 8 a 13 hs"`'
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`horario_atencion` es una función que devuelve si el comercio está abierto
+- value: "`horario_atencion` es una función que devuelve si el comercio está abierto
     un cierto día"
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`horario_atencion` es una función que dice en qué franja horaria está abierto
+- value: "`horario_atencion` es una función que dice en qué franja horaria está abierto
     el comercio en un día particular"
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`horario_atencion` es una función que dice en qué días se puede encontrar
+- value: "`horario_atencion` es una función que dice en qué días se puede encontrar
     abierto al comercio en un horario dado"
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '`horarioatencion("martes")` genera un `NameError`'
+- value: '`horarioatencion("martes")` genera un `NameError`'
   checked: true
 name: El tiempo está después
